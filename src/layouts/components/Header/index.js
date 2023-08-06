@@ -20,11 +20,11 @@ import { faBitcoin } from '@fortawesome/free-brands-svg-icons';
 
 import styles from './Header.module.scss';
 import images from '~/assets/images';
-import Search from '~/layouts/Search';
-import Button from '~/components/Button';
+import Search from '~/layouts/Search/Search';
+import Button from '~/components/Button/Button';
 import Menu from '~/components/Popper/Menu';
 import { MessageIcon, UploadIcon } from '~/components/Icons';
-import Image from '~/components/Image';
+import Image from '~/components/Image/Image';
 import config from '~/config';
 
 const MENU_ITEMS = [
